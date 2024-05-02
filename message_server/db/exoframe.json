@@ -1,0 +1,10 @@
+{
+  "name": "joselopez-message-database",
+  "domain": false,
+  "hostname": "joselopez-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@joselopez-postgres-password"
+  },
+  "volumes": ["joselopez_message_database_volume:/var/lib/postgresql/data"]
+}
